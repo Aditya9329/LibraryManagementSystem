@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock title %}
+{% block content %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'Library/css/student_registor.css' %}">
+<div class="container my-5">
+
+    <h3 class="text-center">Library Sign Up</h3>
+    <form action="">
+        
+        <div class="mb-3">
+           
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Username">
+        </div>
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Firstname">
+        </div>
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Lastname">
+        </div>
+        <div class="mb-3">
+           
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div>
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="password">
+        </div>
+        <div class="mb-3">
+            
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="confirm Password">
+        </div>
+        <div class="text-center">
+            
+            <button type="submit" class="btn btn-primary btn-center">submit</button>
+          </div>
+    </form>
+</div>
+{% endblock content %}
