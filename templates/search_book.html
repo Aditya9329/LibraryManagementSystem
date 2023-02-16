@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}find-book{% endblock title %}
+{% block content %}
+
+<div class="container my-5">
+    <h1>Library Books</h1>
+    <br>
+    <h3 class="text-center">Find books here only</h3>
+    <form action="">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Find-books</span>
+            <input type="text" class="form-control" placeholder="book-title or book-author or book-category" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          
+          <br>
+          <div class="text-center">
+            
+            <button type="submit" class="btn btn-primary btn-center">search</button>
+          </div>
+    </form>
+</div>
+{% endblock content %}
